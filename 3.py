@@ -2,7 +2,7 @@ import random
 
 #listOfNumbers = [random.randint(-50, 50) for i in range(15)]
 listOfNumbers = [i for i in input('Введите через пробел элементы последовательности').split()]
-
+# Образуют ли они арифметическую проггрессию. Если да то вывести разность прогрессии
 
 '''
 print('posOfFirstNegative = ', posOfFirstNegative)
